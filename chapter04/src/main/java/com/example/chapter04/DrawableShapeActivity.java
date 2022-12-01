@@ -17,7 +17,7 @@ public class DrawableShapeActivity extends AppCompatActivity implements View.OnC
         findViewById(R.id.btn_rect).setOnClickListener(this);
 
         // v_content 的背景设置为圆角矩形
-        v_content.setBackgroundResource(R.drawable.shape_rect_gold);
+        // v_content.setBackgroundResource(R.drawable.shape_rect_gold);
     }
 
     @Override

@@ -9,7 +9,8 @@
         android:id="@+id/v_content"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rect_gold"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +22,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="圆角背景"/>
+            android:text="圆角背景" />
 
         <Button
             android:id="@+id/btn_oval"

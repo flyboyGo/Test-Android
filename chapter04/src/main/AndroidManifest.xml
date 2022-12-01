@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo_11_27">
         <activity
+            android:name=".TimePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DatePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlterDialogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditHideActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditFoucusActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RadioHorizontalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SwitchIOSActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SwitchDefaultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="true" />
+        <activity
             android:name=".DrawableStateActivity"
             android:exported="true" />
         <activity
