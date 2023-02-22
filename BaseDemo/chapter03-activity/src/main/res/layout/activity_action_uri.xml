@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="点击一下按钮将向12345发起请求"/>
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到拨号页面"/>
+
+    <Button
+        android:id="@+id/btn_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到短信页面"/>
+
+    <Button
+        android:id="@+id/btn_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到我的页面"/>
+
+</LinearLayout>

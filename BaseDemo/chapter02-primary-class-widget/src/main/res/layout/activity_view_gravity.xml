@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    设置视图的对齐方式有两种途径：
+
+    采用layout_gravity属性，它指定了当前视图相对于上级视图的对齐方式。
+    采用gravity属性，它指定了下级视图相对于当前视图的对齐方式。
+
+    layout_gravity与gravity的取值包括：left、top、right、bottom，还可以用竖线连接各取值，例如“left|top”表示即靠左又靠上，也就是朝左上角对齐
+-->
+<!-- 最外层的布局背景为橙色，它的下级视图在水平方向排列 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    android:background="#0000ff">
+
+    <!-- 第一个子布局背景为红色，它在上级视图中朝下对齐，它的下级视图则靠左对齐 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="left|bottom"
+        android:gravity="left"
+        android:background="#ff0000">
+
+        <!-- 内部视图的宽度和高度都是100dp，且背景色为青色 -->
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ff00"/>
+
+    </LinearLayout>
+
+    <!-- 第二个子布局背景为红色，它在上级视图中朝下对齐，它的下级视图则靠左对齐 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="right|top"
+        android:gravity="top|right"
+        android:background="#ff0000">
+
+        <!-- 内部视图的宽度和高度都是100dp，且背景色为青色 -->
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ff00" />
+
+    </LinearLayout>
+
+</LinearLayout>

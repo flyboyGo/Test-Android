@@ -1,0 +1,66 @@
+
+         Service概念
+           Service意为:服务，是一种运行时用户不可见的活动机制。可以理解为它是一个没有布局的Activity。
+
+           典型的场景:音乐后台播放、后台下载。
+
+           注意:Service不同与子线程，Service是运行在 "主线程" 中的，因此不能进行 "耗时" 操作.
+           (Service是与Activity同一级别的组件)
+
+           Service的创建
+             1、继承系统的Service类新建一个自己的Service类，比如MyService
+             2、重写其中的几个重要方法:onCreate、onBind 、onStartCommand
+             3、在Manifest文件中 "注册" 这个Service
+
+
+           Service的类型
+            非绑定式(startService)
+               1、一旦服务开启就跟启动者没关系了，即使启动者退出，service依然在后台运行
+               2、启动者无法调用service里面的方法。
+           生命周期
+           启动阶段:启动者(Activity)调用startService
+               1、onCreate():只会在首次创建执行一次
+               2、onStartCommand()、onStart():每次startService都会执行
+           结束阶段:启动者(Activity）调用stopService或 service内部调用stopSelf
+               3、onDestroy():服务销毁前的最后一个方法，可以做一些释放资源等收尾工作。
+
+
+           绑定式(bindService)
+               1、绑定服务后,服务就跟启动者(Activity)的生命周期绑定在一起了，如果启动者销毁，服务也会跟着被销毁。
+               2、启动者可以 调用service里面的方法
+            生命周期
+            启动阶段:启动者（Activity）调用bindService
+               1、onCreate():只会在首次创建执行一次
+               2、onBind():也是只会在首次绑定时执行一次，再次调用bindService 也不会执行onBind了
+           结束阶段:启动者(Activity）销毁或调用unbindService方法，会解绑Service。
+               注意: 当没有绑定者时，该Service会销毁。
+               1、onUnbind(): Service解除绑定
+               2、onDestroy(): Service销毁
+
+
+
+          前台Service的概念
+               1、前台服务可以说是除了绑定式Service和非绑定Service之外，有一种Service类型。
+               2、顾名思义，她是可以运行在前台可以和用户打交道的Service
+               3、优先级相比另外两个运行在后台的Service要高,几乎不会被系统回收
+
+          前台服务的使用场景：音乐App播控通知栏
+               4、前台服务必须显示通知(Notification)。因此,前台服务是以通知地形式呈现的。
+               5、该通知是不可以去除的，除非服务停止或者前台移除(被降级到普通的服务)
+
+          前台Service的启动 : 一般是在一个普通Service的onCreate()方法中将这个Service提示为前台Service
+                1、创建通知(Notification)
+                2、调用方法startForeground(notificationId,notification)
+                3、在Manifest文件中申请权限：android.permission.FOREGROUND_SERVICE
+
+               普通Service ---->(onCreate()方法中调用)startForeground() --> 前台Service
+
+               前台Service的结束
+               两种结束含义:
+                   1、结束Service本身
+                       (1):正常的结束Service的方式，即外界调用stopService，或者自身调用stopSelf方法。
+                       (2):当Service结束后，通知也会随之被移除。
+
+                   2、退出Service的前台状态，降级为普通Service,调用stopForeground(true)
+                        (1):该方法表示，将Service退出前台状态，意味着它变成了普通的后台Service，优先级降低，可能在内存不足时被回收销毁。
+                        (2):参数true，表示同时移除通知。

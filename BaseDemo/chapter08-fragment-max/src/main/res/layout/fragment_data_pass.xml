@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DataPassFragment"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="通过activity传递数据"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_interface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过接口传递数据"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="数据显示" />
+
+</LinearLayout>
