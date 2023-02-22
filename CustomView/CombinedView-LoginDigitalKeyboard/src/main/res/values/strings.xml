@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CombinedView-DigitalKeyboard</string>
+    <string name="protocol_content">同意《阳光沙滩用户使用协议》</string>
+    <string name="verify_code">获取验证码</string>
+</resources>

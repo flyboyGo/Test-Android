@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- 引用资源文件string.xml中定义的颜色-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view"
+        android:textSize="30sp"
+        android:textColor="@color/purple_200"
+        />
+
+    <!-- 在xml文件中颜色不指明透明度，默认为ff,与java代码相反-->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view"
+        android:textSize="30dp"
+        android:textColor="#00ff00"
+        android:background="#005533"/>
+
+    <!-- 设置背景颜色-->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view"
+        android:textSize="30px"
+        android:textColor="#0000ff00"
+        android:background="@color/purple_700"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@mipmap/user"
+        android:drawablePadding="20dp"
+        android:text="阳光沙滩账号登录"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/phone"
+                android:drawablePadding="10dp"
+                android:focusable="true"
+                android:hint="请输入11为手机号码"
+                android:inputType="number"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/shape_edit_cursor"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/edit_verify_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/lock"
+                    android:drawablePadding="10dp"
+                    android:hint="请输入验证码"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textCursorDrawable="@drawable/shape_edit_cursor" />
+                <TextView
+                    android:id="@+id/tv_verify_code"
+                    android:layout_width="120dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:enabled="false"
+                    android:text="@string/verify_code"
+                    android:textColor="@drawable/selector_verify_code"
+                    android:textSize="20sp"/>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/tv_verify_code"
+                    android:background="@drawable/shape_line_bg"/>
+
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/ck_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/selector_checkbox"
+                android:drawablePadding="10dp"
+                android:text="@string/protocol_content"
+                android:textColor="@drawable/selector_ck_protocol"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_btn_bg"
+                android:enabled="false"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <com.example.combinedview_digitalkeyboard.DigitalKeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

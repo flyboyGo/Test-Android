@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".okHttp.OkHttpActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/get_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET同步请求"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/get_async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET异步请求"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/post_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST同步请求"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/post_async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST异步请求"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/post_upload_image_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传文件"
+        android:textSize="17sp"/>
+
+</LinearLayout>

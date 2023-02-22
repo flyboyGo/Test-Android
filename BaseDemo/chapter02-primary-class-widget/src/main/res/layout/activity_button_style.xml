@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+         按钮控件Button由TextView派生而来，它们之间的区别有：
+
+         Button拥有默认的按钮背景，而TextView默认无背景；
+         Button的内部文本默认居中对齐，而TextView的内部文本默认靠左对齐；
+         Button会默认将英文字母转为大写，而TextView保持原始的英文大小写；
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面的按钮英文字母默认大写"
+        android:gravity="center"
+        android:textColor="@color/purple_200"
+        android:textSize="17sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+    <!--
+       与TextView相比，Button增加了两个新属性：
+
+        textAllCaps属性，它指定了是否将英文字母转为大写，为true是表示自动转为大写，为false表示不做大写转换。
+        onClick属性，它用来接管用户的点击动作，指定了点击按钮时要触发哪个方法；
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello world"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接指定点击方法"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:onClick="doClick"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+</LinearLayout>

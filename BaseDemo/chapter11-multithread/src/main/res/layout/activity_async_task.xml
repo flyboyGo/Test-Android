@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plus.AsyncTaskActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收的数据"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_async_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建异步服务"
+        android:textSize="17sp"/>
+
+    <ProgressBar
+        android:id="@+id/pb_download"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:max="100"
+        android:progress="0"
+        style="?android:attr/progressBarStyleHorizontal"/>
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始下载"
+        android:textSize="17sp"/>
+
+</LinearLayout>

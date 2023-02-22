@@ -1,0 +1,40 @@
+pluginManagement{
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "BaseDemo"
+include ':app'
+include ':chapter01-project'
+include ':chapter02-primary-class-widget'
+include ':chapter03-activity'
+include ':chapter04-middle-class-widget'
+include ':chapter05-data-storage'
+include ':chapter06-server-contentProvider'
+include ':chapter06-client-contentProvider'
+include ':chapter07-high-class-widget'
+include ':chapter07-shopping'
+include ':chapter07-recycleView'
+include ':chapter08-fragment'
+include ':chapter08-fragment-extra'
+include ':chapter08-fragment-max'
+include ':chapter08-fragment-final'
+include ':chapter09-broadcastReceiver'
+include ':chapter09-broadcastreceiver-extra'
+include ':chapter09-broadcastreceiver-max'
+include ':chapter10-service'
+include ':chapter11-multithread'
+include ':chapter12-network-communication'
+include ':chapter13-room'
+include ':chapter14-multimedia'
+include ':chapter15-okhttp'
+include ':chapter16-retrofit'

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="replace hello blank fragment " />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="fragment send msg to activity"
+        android:textAllCaps="false"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_connect2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="fragment get msg from activity"
+        android:textAllCaps="false"
+        android:textSize="17sp"/>
+
+</LinearLayout>

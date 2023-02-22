@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+        <!-- 水平线性布局，两个子视图的颜色分别为青色、黄色-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="#aaffff"/>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="#ffff00"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <!--垂直滚动视图-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 垂直方向的线性布局，两个子视图的颜色分别为绿色、黄色-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#00ff00"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#ffff00"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

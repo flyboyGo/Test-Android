@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BaseBlueTooth-extra/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BaseBlueTooth/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BaseBlueTooth/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BaseBlueTooth/src/main/res/layout/item_bluetooth.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueTooth/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueTooth/src/main/res/drawable/editext_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueTooth/src/main/res/drawable/shape_edit_focus.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueTooth/src/main/res/drawable/shape_edit_normal.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueTooth/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueToothLowEnergy-Server/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueToothLowEnergy-Server/src/main/res/layout/activity_ble_scan.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/BlueToothLowEnergy-Server/src/main/res/layout/item_bluetooth.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/MyBlueTooth-Client/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/MyBlueTooth-Client/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/MyBlueTooth/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/MyBlueTooth/src/main/res/drawable/shape_edit_focus.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/MyBlueTooth/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/drawable/editext_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/drawable/shape_edit_focus.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/drawable/shape_edit_normal.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/layout/activity_bluetooth_trans.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/layout/dialog_input.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-client/src/main/res/layout/item_bluetooth.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-server/src/main/res/layout/activity_bluetooth_trans.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-server/src/main/res/layout/dialog_input.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/TraditionalBlueToothDemo-server/src/main/res/layout/item_bluetooth.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/app/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/bluetoothlowenergy-server/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/mybluetooth-client/src/main/res/layout/activity_main.xml" value="0.2265625" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/mybluetooth/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionalBlueTooth/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionalBlueTooth/src/main/res/drawable/shape_edit_normal.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionalBlueTooth/src/main/res/layout/activity_bluetooth_trans.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionalBlueTooth/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionalBlueTooth/src/main/res/layout/item_bluetooth.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionalbluetoothdemo-client/src/main/res/layout/activity_main.xml" value="0.2265625" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/drawable/ck_status_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/drawable/editext_selector.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/drawable/shape_edit_focus.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/layout/activity_bluetooth_trans.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/layout/activity_main.xml" value="0.2265625" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/layout/dialog_input.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/BlueToothDemo/traditionbluetoothdemo/src/main/res/layout/item_bluetooth.xml" value="0.24114583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

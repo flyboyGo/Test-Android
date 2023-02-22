@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapter02">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Demo_11_27">
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImageTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImageButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ButtonEnableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ButtonClickActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ButtonStyleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GridLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewGravityActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewMarginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewBorder"
+            android:exported="true" />
+        <activity
+            android:name=".TextViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

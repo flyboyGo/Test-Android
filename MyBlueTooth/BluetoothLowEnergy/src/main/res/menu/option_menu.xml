@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_is_support_bluetooth" android:title="是否支持低功耗蓝牙"/>
+    <item android:id="@+id/menu_is_open_bluetooth" android:title="蓝牙是否打开"/>
+    <item android:id="@+id/menu_open_bluetooth" android:title="打开蓝牙"/>
+    <item android:id="@+id/menu_dynamic_right_bluetooth" android:title="蓝牙动态权限申请"/>
+    <item android:id="@+id/menu_discovered_bluetooth" android:title="蓝牙可见"/>
+    <item android:id="@+id/menu_close_bluetooth" android:title="关闭蓝牙"/>
+    <item android:id="@+id/menu_scan_bluetooth" android:title="开始扫描"/>
+    <item android:id="@+id/menu_stop_scan_bluetooth" android:title="停止扫描"/>
+    <item android:id="@+id/menu_start_byte" android:title="启动字节数据"/>
+    <item android:id="@+id/menu_stop_byte" android:title="关闭字节数据"/>
+</menu>
