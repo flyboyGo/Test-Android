@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DataBinding" />
+            <option value="$PROJECT_DIR$/LifeCycle" />
+            <option value="$PROJECT_DIR$/LiveData" />
+            <option value="$PROJECT_DIR$/Navigation" />
+            <option value="$PROJECT_DIR$/NavigationUi" />
+            <option value="$PROJECT_DIR$/Paging" />
+            <option value="$PROJECT_DIR$/Paging2" />
+            <option value="$PROJECT_DIR$/Paging3" />
+            <option value="$PROJECT_DIR$/Paging4" />
+            <option value="$PROJECT_DIR$/Room" />
+            <option value="$PROJECT_DIR$/ViewModel" />
+            <option value="$PROJECT_DIR$/WorkManager" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
