@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_is_discover_bluetooth" android:title="是否正在扫描蓝牙设备"/>
-</menu>
