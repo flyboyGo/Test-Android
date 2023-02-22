@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">chapter06-client</string>
-    <string name="file_provider">com.example.chapter06_client.fileProvider</string>
-</resources>

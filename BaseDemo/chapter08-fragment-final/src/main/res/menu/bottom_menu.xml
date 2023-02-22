@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:id="@+id/menu_home" android:icon="@drawable/selector_home" android:title="首页"/>
-    <item android:id="@+id/menu_find" android:icon="@drawable/selector_find" android:title="发现"/>
-    <item android:id="@+id/menu_personal" android:icon="@drawable/selector_personal" android:title="我的"/>
-
-</menu>
