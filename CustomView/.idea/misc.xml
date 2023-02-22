@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidWorkPlace/CustomView/A/src/main/res/layout/activity_main.xml" value="0.22010869565217392" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/A/src/main/res/layout/activity_main2.xml" value="0.3536458333333333" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/AlertDialog/src/main/res/drawable/button_success_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/AlertDialog/src/main/res/drawable/dialog_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/AlertDialog/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/AlertDialog/src/main/res/layout/layout_error_dialog.xml" value="0.19202898550724637" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/AlertDialog/src/main/res/layout/layout_info_dialog.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/AlertDialog/src/main/res/layout/layout_success_dialog.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CircleProgressBar/src/main/res/drawable-v24/shape_line_bg.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CircleProgressBar/src/main/res/layout/activity_first.xml" value="0.2164855072463768" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CircleProgressBar/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CircleProgressBar/src/main/res/layout/activity_second.xml" value="0.21467391304347827" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-InputNumber/src/main/res/layout/activity_input_number.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-InputNumber/src/main/res/layout/activity_layout.xml" value="0.19791666666666666" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/digital_keyboard.xml" value="0.2111111111111111" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/selector_btn_bg.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/selector_checkbox.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/selector_ck_protocol.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/selector_digital_keyboard.xml" value="0.19814814814814816" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/selector_verify_code.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/shape_digital_keyboard.xml" value="0.19537037037037036" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/shape_digital_keyboard_normal.xml" value="0.19537037037037036" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/shape_digital_keyboard_press.xml" value="0.2064814814814815" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/shape_edit_cursor.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/drawable-v24/shape_line_bg.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/layout/digital_keyboard.xml" value="0.20878623188405798" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/layout/view_digital_keyboard.xml" value="0.2164855072463768" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView-LoginDigitalKeyboard/src/main/res/layout/view_login_keyboard.xml" value="0.21875" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/selector_num_btn_bg_left.xml" value="0.1925925925925926" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/selector_num_btn_bg_right.xml" value="0.1925925925925926" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/shape_num_btn_bg_left.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/shape_num_btn_bg_left_press.xml" value="0.19907407407407407" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/shape_num_btn_bg_right.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/shape_num_btn_bg_right_press.xml" value="0.1925925925925926" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/drawable-v24/shape_num_inp_bg.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/layout/activity_input_number.xml" value="0.20516304347826086" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/layout/activity_main.xml" value="0.24003623188405798" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/layout/activity_main2.xml" value="0.24003623188405798" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/CombinedView/src/main/res/layout/input_number_view.xml" value="0.20742753623188406" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/View-SlideMenu/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/View-SlideMenu/src/main/res/layout/item_slide_action.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/View-Watch/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/View/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/drawable-v24/selector_digital_keyboard.xml" value="0.23796296296296296" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/drawable-v24/shape_digital_keyboard_normal.xml" value="0.23796296296296296" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/drawable-v24/shape_digital_keyboard_press.xml" value="0.23796296296296296" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/drawable-v24/shape_normal.xml" value="0.22962962962962963" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/drawable-v24/shape_press.xml" value="0.22962962962962963" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/layout/activity_main.xml" value="0.21557971014492755" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-DigitalKeyBoard/src/main/res/layout/view_digital_keyboard.xml" value="0.19791666666666666" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/drawable-v24/select_flow_text.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/drawable-v24/select_flow_text_bg.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/drawable-v24/select_flow_text_color.xml" value="0.2490740740740741" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/drawable-v24/shape_flow_text_bg_normal.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/drawable-v24/shape_flow_text_bg_press.xml" value="0.25333333333333335" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/layout/item_flow_text.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-FlowLayout/src/main/res/layout/view_digital_keyboard.xml" value="0.19791666666666666" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-SlideMenu/src/main/res/layout/activity_main.xml" value="0.2296195652173913" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup-SlideMenu/src/main/res/layout/item_slide_action.xml" value="0.2296195652173913" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/ViewGroup/src/main/res/layout/activity_main.xml" value="0.2056159420289855" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/a/src/main/res/layout/activity_main.xml" value="0.17844202898550723" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/button_error_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/button_success_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/button_warning_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/dialog_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/ic_error.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/ic_success.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/ic_warning.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/title_error_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/title_success_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/drawable/title_warning_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/layout/layout_error_dialog.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/layout/layout_success_dialog.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/app/src/main/res/layout/layout_warning_dialog.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/combinedview-digitalkeyboard/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/view-watch/src/main/res/layout/activity_main.xml" value="0.2265625" />
+        <entry key="..\:/AndroidWorkPlace/CustomView/view/src/main/res/layout/activity_main.xml" value="0.2056159420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
