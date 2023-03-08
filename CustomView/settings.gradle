@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "CustomView"
+include ':AlertDialog'
+include ':CircleProgressBar'
+include ':CombinedView-InputNumber'
+include ':CombinedView-LoginDigitalKeyboard'
+include ':ViewGroup-FlowLayout'
+include ':ViewGroup-SlideMenu'
+include ':ViewGroup-DigitalKeyBoard'
+include ':View-Watch'
+include ':MpAndroidChart'
+include ':MyTestView'
+include ':View-ImageViewPlus'
