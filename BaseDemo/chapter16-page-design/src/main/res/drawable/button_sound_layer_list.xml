@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 主体背景颜色-->
+    <item
+        android:bottom="5dp">
+        <shape>
+            <solid android:color="@color/title_background_color" />
+        </shape>
+    </item>
+</layer-list>

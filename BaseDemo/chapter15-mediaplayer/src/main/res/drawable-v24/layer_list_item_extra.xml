@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="#00ff00" />
+
+        </shape>
+    </item>
+
+    <!-- 主体背景颜色值 -->
+    <!--    想保留哪一边就设置哪一边边框，列如只有下边框：bottom="10dp"，
+    上top="10dp",右right="10dp"    -->
+    <item
+        android:top="10dp"
+        android:bottom="10dp"
+        android:right="10dp">
+        <shape>
+            <solid android:color="#ff0000" />
+        </shape>
+
+    </item>
+</layer-list>

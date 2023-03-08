@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chapter09_broadcastreceiver_extra">
+
+
+    <!-- 设置允许接收电池广播 -->
+    <uses-permission android:name="android.permission.BATTERY_STATS"  tools:ignore="ProtectedPermissions" />
+
+    <!-- 允许接收开机广播-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- 使用自定义权限,广播发送方的权限-->
+    <uses-permission android:name="com.example.chapter09_broadcastreceiver.ORDER_PERMISSION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Demo">
+        <activity
+            android:name=".BroadCastPermissonActivity"
+            android:exported="true" />
+
+
+        <!-- 这个是静态注册，即使我们写的应用不在前台，也能接收到广播。这是静态注册的特点 -->
+        <!-- 静态注册开机广播，并添加监听的广播频道 -->
+        <receiver
+            android:name=".reveiver.BootCompleteReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".UsbPowerBroadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BatteryChangeBroadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

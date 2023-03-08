@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentDrawerActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+        <!-- 主体显示部分-->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fcv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- 菜单部分-->
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nv_drawer_menu"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/drawer_header_layout"
+            app:menu="@menu/drawer_nav_menu"
+            android:background="@color/white"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

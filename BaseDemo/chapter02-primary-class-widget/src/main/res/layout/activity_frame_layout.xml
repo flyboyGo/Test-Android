@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayoutActivity">
+
+    <!--
+        注意点:
+        android:foreground 设置前景(不设置位置时，会拉伸图片)
+        android:foregroundGravity 设置前景位置
+    -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/teal_200"/>
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ffff00"
+        android:foreground="@drawable/me"
+        android:foregroundGravity="bottom|center"/>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/green"/>
+
+</FrameLayout>

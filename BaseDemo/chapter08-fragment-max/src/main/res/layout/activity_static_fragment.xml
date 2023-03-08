@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StaticFragmentActivity">
+
+    <fragment
+        android:layout_margin="10dp"
+        android:id="@+id/static_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_static"
+        android:name="com.example.chapter08_fragment_max.fragment.StaticFragment"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/static_fragment_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        tools:layout="@layout/fragment_static"
+        android:name="com.example.chapter08_fragment_max.fragment.StaticFragment"/>
+
+</LinearLayout>

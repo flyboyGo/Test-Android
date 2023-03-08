@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/chapter01-project" />
+            <option value="$PROJECT_DIR$/chapter02-primary-class-widget" />
+            <option value="$PROJECT_DIR$/chapter03-activity" />
+            <option value="$PROJECT_DIR$/chapter04-middle-class-widget" />
+            <option value="$PROJECT_DIR$/chapter05-data-storage" />
+            <option value="$PROJECT_DIR$/chapter06-client-contentProvider" />
+            <option value="$PROJECT_DIR$/chapter06-server-contentProvider" />
+            <option value="$PROJECT_DIR$/chapter07-high-class-widget" />
+            <option value="$PROJECT_DIR$/chapter07-recycleView" />
+            <option value="$PROJECT_DIR$/chapter07-shopping" />
+            <option value="$PROJECT_DIR$/chapter08-fragment" />
+            <option value="$PROJECT_DIR$/chapter08-fragment-extra" />
+            <option value="$PROJECT_DIR$/chapter08-fragment-final" />
+            <option value="$PROJECT_DIR$/chapter08-fragment-max" />
+            <option value="$PROJECT_DIR$/chapter09-broadcastReceiver" />
+            <option value="$PROJECT_DIR$/chapter09-broadcastreceiver-extra" />
+            <option value="$PROJECT_DIR$/chapter09-broadcastreceiver-max" />
+            <option value="$PROJECT_DIR$/chapter10-service" />
+            <option value="$PROJECT_DIR$/chapter10-service-extra" />
+            <option value="$PROJECT_DIR$/chapter10-service-ipc-client" />
+            <option value="$PROJECT_DIR$/chapter10-service-ipc-server" />
+            <option value="$PROJECT_DIR$/chapter11-multithread" />
+            <option value="$PROJECT_DIR$/chapter12-network-communication" />
+            <option value="$PROJECT_DIR$/chapter13-room" />
+            <option value="$PROJECT_DIR$/chapter14-multimedia" />
+            <option value="$PROJECT_DIR$/chapter15-mediaplayer" />
+            <option value="$PROJECT_DIR$/chapter16-page-design" />
+            <option value="$PROJECT_DIR$/chapter17-event-bus" />
+            <option value="$PROJECT_DIR$/chapter18-handler-thread" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
